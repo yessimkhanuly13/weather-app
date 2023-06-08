@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://wp-s.ru/wallpapers/15/12/485070718434239/fioletovyj-zakat-i-rozovye-oblaka.jpg);
+    background-repeat: no-repeat;
+}
+
+input{
+    background-color: inherit;
+    border:none;
+    border-bottom: 1px solid;
+}
+
+input:focus{
+    background-color: inherit;
+    border: none;
+}
+
