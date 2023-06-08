@@ -1,4 +1,11 @@
-// fetch('https://api.weatherapi.com/v1/current.json?key=a045b3f481734899a3183450232405&q=london', {mode: 'cors'})
-//     .then(function(response) {
-//       console.log(response.json());
-//     });
+import weather from "./modules/weather";
+import view from "./modules/view";
+
+const cityBtn = document.querySelector('#search');
+const city = document.querySelector('#city');
+const container = document.querySelector('.container');
+
+// cityBtn.addEventListener('click',async ()=>{
+//     const res = await weather.getData(city.value);
+// });
+
