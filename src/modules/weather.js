@@ -4,7 +4,8 @@ const weather = (()=>{
         try{
             const response = await fetch(api)
             const data = await response.json();
-            return data.current;
+            console.log(data)
+            return data;
         }
         catch(error){
             console.log(error);

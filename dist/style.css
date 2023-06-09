@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     padding: 0;
     margin: 0;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(https://wp-s.ru/wallpapers/15/12/485070718434239/fioletovyj-zakat-i-rozovye-oblaka.jpg);
+    background-image: url(../components/Background.png);
     background-repeat: no-repeat;
+    background-size:cover;
 }
 
 input{
@@ -21,3 +25,83 @@ input:focus{
     border: none;
 }
 
+.title{
+    text-align: center;
+}
+
+.current{
+    margin: 3vh 30vw 0 30vw;
+    height: 85vh;
+    width: 40vw;
+    background-image: url(../components/Temperature.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.search-city{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+
+#search{
+    background-color: inherit;
+    border: none;
+}
+
+#image-search{
+    width: 2vw;
+    height: 3vh;
+}
+
+.location{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.1vh;
+    padding: 1vh 2vw 0 0;
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 12vh;
+}
+
+.temp b{
+    position: absolute;
+    font-size: 5vh;
+}
+
+.stats{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.stat{
+    width: 10vw;
+    text-align: center;
+    height: 8vh;
+    border-radius: 1vw;
+    background-color: rgba(102, 96, 200, 0.6);
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.stat img{
+    display: flex;
+    align-items: center;
+    width: 2vw;
+    height: 4vh;
+    margin-right: 1vw;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
