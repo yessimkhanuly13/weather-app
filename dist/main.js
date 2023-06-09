@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_weather__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/weather */ \"./src/modules/weather.js\");\n/* harmony import */ var _modules_view__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/view */ \"./src/modules/view.js\");\n\r\n\r\n\r\nconst cityBtn = document.querySelector('#search');\r\nconst city = document.querySelector('#city');\r\n\r\ncityBtn.addEventListener('click', async()=>{\r\n    if (city.value === \"\") return;\r\n    const res = await _modules_weather__WEBPACK_IMPORTED_MODULE_0__[\"default\"].getData(city.value);\r\n    _modules_view__WEBPACK_IMPORTED_MODULE_1__[\"default\"].setSearch(res);\r\n    city.value = null;\r\n});\r\n\r\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_weather__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/weather */ \"./src/modules/weather.js\");\n/* harmony import */ var _modules_view__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/view */ \"./src/modules/view.js\");\n\r\n\r\n\r\nconst cityBtn = document.querySelector('#search');\r\nconst city = document.querySelector('#city');\r\ncityBtn.addEventListener('click', async()=>{\r\n    if (city.value === \"\") return;\r\n    const res = await _modules_weather__WEBPACK_IMPORTED_MODULE_0__[\"default\"].getData(city.value);\r\n    _modules_view__WEBPACK_IMPORTED_MODULE_1__[\"default\"].setSearch(res);\r\n    city.value = null;\r\n});\r\n\r\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ }),
 
