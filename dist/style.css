@@ -9,7 +9,7 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(../components/Background.png);
+    background-image: url(./components/Background.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -33,7 +33,7 @@ input:focus{
     margin: 3vh 30vw 0 30vw;
     height: 85vh;
     width: 40vw;
-    background-image: url(../components/Temperature.png);
+    background-image: url(./components/Temperature.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
